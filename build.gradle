@@ -9,9 +9,10 @@ buildscript {
     }
 }
 
-group 'y2k'
+group 'com.github.y2k'
 version '1.0-SNAPSHOT'
 
+apply plugin: 'maven'
 apply plugin: 'kotlin'
 
 repositories {
